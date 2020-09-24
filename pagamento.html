@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preencha seus dados</title>
+    <link rel="stylesheet" href="pagamento.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="cabecalho">
+        <div class="pesquisa">
+            <img src="logo.png">
+            <form>
+                <input placeholder="Pesquise filmes...">
+                <img src="Search.png">
+            </form>
+        </div>
+        <div class="favoritos">
+            <a href="#"><img src="favoritos.png">Favoritos</a>
+        </div>
+        <div class="promocoes">
+            <a href="#"><img src="promocoes.png">Promoções</a>
+        </div>
+        <div class="conta">
+            <p>Bem vindo Link</p>
+            <img src="conta.png">
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <div class="formulario">
+            <div class="inicial">
+                <h1>Informações iniciais</h1>
+                <form>
+                    <div class="campo">
+                        <label>Insira seu nome completo</label>
+                        <input id="nome" placeholder="Ex: Princesa Zelda" required>
+                    </div>
+                    <div class="campo">
+                        <label>Insira seu e-mail</label>
+                        <input id="email" inputmode="email" type="email" placeholder="Ex: triforce4thewin@hyrule.com" required>
+                    </div>
+                    <div class="campo">
+                        <label>Telefone</label>
+                        <input id="telefone" inputmode="tel" type="tel" placeholder="+55 (71) 9    -    " required>
+                    </div>
+                </form>
+            </div>
+            <div class="endereco">
+                <h1>Informações de endereço</h1>
+                <form>
+                    <div class="campo">
+                        <label>CEP</label>
+                        <input id="cep" inputmode="numeric" placeholder="Ex: 00000-000" required>
+                    </div>
+                    <div class="campo">
+                        <label>País</label>
+                        <input id="pais" placeholder="Ex: Reino de Hyrule" required>
+                    </div>
+                    <div class="campo">
+                        <label>Cidade</label>
+                        <input id="cidade" placeholder="Ex: Great Plateau" required>
+                    </div>
+                    <div class="campo">
+                        <label>Bairro</label>
+                        <input id="bairro" placeholder="Ex: Vilarejo Kakariko" required>
+                    </div>
+                    <div class="campo">
+                        <label>Número</label>
+                        <input id="numero" inputmode="numeric" minlength="1" placeholder="00" required>
+                    </div>
+                </form>
+            </div>
+            <div class="pagamento">
+                <h1>Informações de pagamento</h1>
+                <form>
+                    <div class="campo">
+                        <label>Número do cartão</label>
+                        <input id="numero-cartao" inputmode="numeric" minlength="16" maxlength="16" placeholder="Ex: 0000 0000 0000 0000" required>
+                    </div>
+                    <div class="campo">
+                        <label>Nome do cartão</label>
+                        <input id="nome-cartao" placeholder="Ex: Calamity Ganon" required>
+                    </div>
+                    <div class="campo">
+                        <label>Vencimento</label>
+                        <input id="vencimento-cartao" type="month" placeholder="Ex: XX/XXXX" required>
+                    </div>
+                    <div class="campo">
+                        <label>CVV</label>
+                        <input id="cvv" inputmode="numeric" minlength="3" maxlength="3" placeholder="000" required>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="carrinho">
+            <div class="carrinho-cabecalho">
+                <img src="Bag.png">
+                <h2>Sacola</h2>
+            </div>
+            <div class="carrinho-conteudo">
+                <h2>Sua sacola está vazia</h2>
+                <h4>Adicione filmes agora</h4>
+                <img src="Social Media.png">
+            </div>
+            <div class="carrinho-rodape">
+                <form>
+                    <label>Insira seu cupom</label>
+                    <input placeholder="Cupom de desconto">
+                    <img src="Ticket.png">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
