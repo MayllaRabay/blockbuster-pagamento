@@ -6,7 +6,6 @@
     <title>Preencha seus dados</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <div class="cabecalho">
@@ -35,15 +34,15 @@
                 <h1>Informações iniciais</h1>
                 <form>
                     <div class="campo">
-                        <label>Insira seu nome completo</label>
+                        <label for="nome">Insira seu nome completo</label>
                         <input id="nome" placeholder="Ex: Princesa Zelda" required>
                     </div>
                     <div class="campo">
-                        <label>Insira seu e-mail</label>
+                        <label for="email">Insira seu e-mail</label>
                         <input id="email" inputmode="email" type="email" placeholder="Ex: triforce4thewin@hyrule.com" required>
                     </div>
                     <div class="campo">
-                        <label>Telefone</label>
+                        <label for="telefone">Telefone</label>
                         <input id="telefone" inputmode="tel" type="tel" placeholder="+55 (71) 9    -    " required>
                     </div>
                 </form>
@@ -52,23 +51,23 @@
                 <h1>Informações de endereço</h1>
                 <form>
                     <div class="campo">
-                        <label>CEP</label>
+                        <label for="cep">CEP</label>
                         <input id="cep" inputmode="numeric" placeholder="Ex: 00000-000" required>
                     </div>
                     <div class="campo">
-                        <label>País</label>
+                        <label for="pais">País</label>
                         <input id="pais" placeholder="Ex: Reino de Hyrule" required>
                     </div>
                     <div class="campo">
-                        <label>Cidade</label>
+                        <label for="cidade">Cidade</label>
                         <input id="cidade" placeholder="Ex: Great Plateau" required>
                     </div>
                     <div class="campo">
-                        <label>Bairro</label>
+                        <label for="bairro">Bairro</label>
                         <input id="bairro" placeholder="Ex: Vilarejo Kakariko" required>
                     </div>
                     <div class="campo">
-                        <label>Número</label>
+                        <label for="numero">Número</label>
                         <input id="numero" inputmode="numeric" minlength="1" placeholder="00" required>
                     </div>
                 </form>
@@ -77,19 +76,19 @@
                 <h1>Informações de pagamento</h1>
                 <form>
                     <div class="campo">
-                        <label>Número do cartão</label>
+                        <label for="numero-cartao">Número do cartão</label>
                         <input id="numero-cartao" inputmode="numeric" minlength="16" maxlength="16" placeholder="Ex: 0000 0000 0000 0000" required>
                     </div>
                     <div class="campo">
-                        <label>Nome do cartão</label>
+                        <label for="nome-cartao">Nome do cartão</label>
                         <input id="nome-cartao" placeholder="Ex: Calamity Ganon" required>
                     </div>
                     <div class="campo">
-                        <label>Vencimento</label>
+                        <label for="vencimento-cartao">Vencimento</label>
                         <input id="vencimento-cartao" type="month" placeholder="Ex: XX/XXXX" required>
                     </div>
                     <div class="campo">
-                        <label>CVV</label>
+                        <label for="cvv">CVV</label>
                         <input id="cvv" inputmode="numeric" minlength="3" maxlength="3" placeholder="000" required>
                     </div>
                 </form>
